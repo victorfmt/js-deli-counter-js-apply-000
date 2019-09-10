@@ -2,9 +2,10 @@ var katzDeliLine = [];
 
 function takeANumber(katzDeliLine) {
       var number = 1;
-      katzDeliLine.push(number) // katzDeliLine = [1];
-      return "Welcome, you are number " + (katzDeliLine(number) + 1) + "." 
+      katzDeliLine.push(number)
+      return "Welcome, you are number " + (katzDeliLine(number)) + "." 
 }
+
 function nowServing(katzDeliLine) {
   if(katzDeliLine.length >= 1) {
     var sentence = `Currently serving ${katzDeliLine[0]}.`;
